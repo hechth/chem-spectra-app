@@ -48,3 +48,6 @@ dependencies:
   - Werkzeug
   - zipp
   - pyopenms
+  - pip
+  - pip:
+    -e git+https://github.com/ComPlat/nmrglue.git@c5a7d4d0073fedff68808b4e9c95836a8c20413e#egg=nmrglue
